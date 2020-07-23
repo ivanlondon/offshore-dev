@@ -58,10 +58,14 @@ body.navbar-is-default header#navbar {
 body.path-frontpage.navbar-is-static-top .region-header-aqua {
   padding-top: 70px !important;
 }
+.primary-menu a{
+    text-transform: capitalize !important;
+}
 header#navbar {
   margin-bottom: 0px;
   height: 55px;
 }
+
 header#navbar .name.navbar-brand {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -76,6 +80,9 @@ header#navbar .navbar-text {
   margin-left: 5px;
   margin-right: 0px;
   border: 1px solid #ffffff;
+}
+.path-frontpage header#navbar a.logo img {
+  height: 116px !important;
 }
 header#navbar a.logo img {
   height: 40px;
@@ -153,6 +160,9 @@ header#navbar nav {
 header#navbar .navbar-nav>li {
   margin-top: 10px;
 }
+.path-frontpage .main-container {
+   display:none !important;
+}
 header#navbar .navbar-nav>li>a {
   font-size: 1.2em;
   font-weight: 500 !important;
@@ -162,6 +172,7 @@ header#navbar .navbar-nav>li>a {
   padding-right: 10px;
   text-shadow: none;
   font-weight: lighter;
+  text-transform: capitalize !important;
 }
 header#navbar .navbar-nav>li>a.is-active {
   font-weight: normal;
@@ -212,6 +223,8 @@ header#navbar .aqua-scrolled {
   width: 100%;
   height: 800px;
   object-fit: cover;
+  filter: sepia(80%) saturate(150%) brightness(60%) hue-rotate(10deg) !important;
+  margin-bottom: 0px;
 }
 .header-aqua-slider .carousel-caption {
   top: 22%;
